@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/Scenes/spawn world.unity
+    guid: 0f6622e06b79e894a83c57e6c9b2dd98
+  - enabled: 1
+    path: Assets/Scenes/focus hub.unity
+    guid: 8ee6412af6a3f594bb68072e2e822906
+  - enabled: 1
+    path: Assets/Scenes/test world.unity
+    guid: 18f81cd69c09d3c4c9c5658fd270ead5
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2d7eeb46a2489914489084a59f07fe9c, type: 2}
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 68218638a401a2c4285fa1e5d0e64603, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 18123f22e88eef047aa0c8ca3b7b02c6, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 55ecd0cb1afb9894f98e4c2ad21938a4, type: 2}

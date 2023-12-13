@@ -1,0 +1,1004 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 22631.2715; Version 2009; 64bit' Language: 'en' Physical Memory: 16201 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/alber/OneDrive/Desktop/3/ataraxia 2 - Copy
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52014
+Successfully changed project path to: C:/Users/alber/OneDrive/Desktop/3/ataraxia 2 - Copy
+C:/Users/alber/OneDrive/Desktop/3/ataraxia 2 - Copy
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 84.38 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 3.13 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/alber/OneDrive/Desktop/3/ataraxia 2 - Copy/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001426 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 54.43 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.449 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013683 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 62.75 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\alber\OneDrive\Desktop\3\ataraxia 2\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\alber\OneDrive\Desktop\3\ataraxia 2\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/alber/OneDrive/Desktop/3/ataraxia 2/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.106 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.20 ms.
+Unloading 3297 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.4 MB.
+System memory in use after: 148.9 MB.
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 3708.
+Total: 3.976100 ms (FindLiveObjects: 0.619800 ms CreateObjectMapping: 0.228400 ms MarkObjects: 1.791800 ms  DeleteObjects: 1.335200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Assets
+  artifactKey: Guid(23865b7645867b64f914b4045520b146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets using Guid(23865b7645867b64f914b4045520b146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e4ed40dac41847179636b30ee9ce05') in 0.009869 seconds
+  Import took 0.014462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.866526 seconds.
+  path: Assets/Assets/Stethoscope
+  artifactKey: Guid(372b578bd36e41741ad0e32550e6bd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Stethoscope using Guid(372b578bd36e41741ad0e32550e6bd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787ab0a86fcf082e7650afdda2a9e811') in 0.009881 seconds
+  Import took 0.014631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.591372 seconds.
+  path: Assets/Assets/Stethoscope/Modules
+  artifactKey: Guid(030210a9eed41e64db295d7a6fd10390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Stethoscope/Modules using Guid(030210a9eed41e64db295d7a6fd10390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c29bf6c3bcf34b87e8779a1fe5a9ada') in 0.007419 seconds
+  Import took 0.012645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.003350 seconds.
+  path: Assets/Assets/Stethoscope/Modules/Splines
+  artifactKey: Guid(f102b50bc89d09346a0dfdd9eae70859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Stethoscope/Modules/Splines using Guid(f102b50bc89d09346a0dfdd9eae70859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460f28c9528e3b73257848604850e7a8') in 0.007546 seconds
+  Import took 0.012227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.078870 seconds.
+  path: Assets/Assets/Stethoscope/Modules/Splines/Scripts
+  artifactKey: Guid(c24ae678bb0e85e439833493833888e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Stethoscope/Modules/Splines/Scripts using Guid(c24ae678bb0e85e439833493833888e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547b405fc9ea873a01479e85d5b830a2') in 0.007442 seconds
+  Import took 0.012236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.062799 seconds.
+  path: Assets/Assets/Stethoscope/Modules/Splines/Scripts/Spline.cs
+  artifactKey: Guid(2fc5c74f5aed4f34585e94e4f83ff2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Stethoscope/Modules/Splines/Scripts/Spline.cs using Guid(2fc5c74f5aed4f34585e94e4f83ff2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1579c908b7c063c0150e5bf9b3fdb79') in 0.018790 seconds
+  Import took 0.023608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011505 seconds.
+  path: Assets/Assets/Stethoscope/Modules/Splines/Scripts/Spline.cs
+  artifactKey: Guid(2fc5c74f5aed4f34585e94e4f83ff2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Stethoscope/Modules/Splines/Scripts/Spline.cs using Guid(2fc5c74f5aed4f34585e94e4f83ff2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1579c908b7c063c0150e5bf9b3fdb79') in 0.002534 seconds
+  Import took 0.008109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 347.572228 seconds.
+  path: Assets/Assets/Stethoscope/Scripts/SplineRope.cs
+  artifactKey: Guid(61daffea62684fe42be2d0e2bce1ffcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Stethoscope/Scripts/SplineRope.cs using Guid(61daffea62684fe42be2d0e2bce1ffcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2bca1c06753a6c803d0c31d90aaa03') in 0.008171 seconds
+  Import took 0.014003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.666346 seconds.
+  path: Assets/Assets/Stethoscope/Modules/Splines/Editor/SplineInspector.cs
+  artifactKey: Guid(127eddf8173c549d9976751e82f3face) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Stethoscope/Modules/Splines/Editor/SplineInspector.cs using Guid(127eddf8173c549d9976751e82f3face) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56aa91e5143fcc4bc9a6fcd4669f5934') in 0.007883 seconds
+  Import took 0.012898 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021790 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\alber\OneDrive\Desktop\3\ataraxia 2\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\alber\OneDrive\Desktop\3\ataraxia 2\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/alber/OneDrive/Desktop/3/ataraxia 2/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.860 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 3168 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.9 MB.
+System memory in use after: 141.6 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 3710.
+Total: 4.271500 ms (FindLiveObjects: 0.352500 ms CreateObjectMapping: 0.140500 ms MarkObjects: 2.561700 ms  DeleteObjects: 1.216000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 23.829507 seconds.
+  path: Assets/Assets/Scenes
+  artifactKey: Guid(0cc1b79de78bc4991892d4d342d7211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scenes using Guid(0cc1b79de78bc4991892d4d342d7211a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad88d53670a2858ea17b9a838d80bf2') in 0.010362 seconds
+  Import took 0.015511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.874469 seconds.
+  path: Assets/Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06280c1ad7f616cc3a69f0fba14b1776') in 0.014820 seconds
+  Import took 0.019955 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006855 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\alber\OneDrive\Desktop\3\ataraxia 2\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\alber\OneDrive\Desktop\3\ataraxia 2\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/alber/OneDrive/Desktop/3/ataraxia 2/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.830 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Unloading 3168 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.0 MB.
+System memory in use after: 141.7 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3714.
+Total: 4.265000 ms (FindLiveObjects: 0.473500 ms CreateObjectMapping: 0.162200 ms MarkObjects: 2.297200 ms  DeleteObjects: 1.331300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 184.430746 seconds.
+  path: Assets/Assets/Our Prefabs
+  artifactKey: Guid(e5977ab8de193144386287d817792554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Our Prefabs using Guid(e5977ab8de193144386287d817792554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af46f8a8960d92e1f38716ef77e6f01') in 0.011459 seconds
+  Import took 0.016944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061825 seconds.
+  path: Assets/Assets/Our Prefabs/bed.prefab
+  artifactKey: Guid(1e8d552152f25e84899974fb1522df63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Our Prefabs/bed.prefab using Guid(1e8d552152f25e84899974fb1522df63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b98b34a37b8fc18950ae0f69d57ddb6') in 0.838132 seconds
+  Import took 0.844533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Assets/Our Prefabs/instrument_table.prefab
+  artifactKey: Guid(f26cba8f3e012e24ba4411e3cffcfe99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Our Prefabs/instrument_table.prefab using Guid(f26cba8f3e012e24ba4411e3cffcfe99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fd59e545d43d5ae5080efd83f029d0') in 0.177518 seconds
+  Import took 0.182531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Assets/Our Prefabs/wood_table.prefab
+  artifactKey: Guid(dd5c0f3645ce39f45874b9c44a437600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Our Prefabs/wood_table.prefab using Guid(dd5c0f3645ce39f45874b9c44a437600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adda586b6e0bfc34728d84a7652e38ad') in 0.132412 seconds
+  Import took 0.137496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Assets/Our Prefabs/Ch36_nonPBR@Sitting Idle.fbx
+  artifactKey: Guid(9f2393aa2896fe649b24d7e110f94b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Our Prefabs/Ch36_nonPBR@Sitting Idle.fbx using Guid(9f2393aa2896fe649b24d7e110f94b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97e7d5f7996b5547a0dbc2ec66f68d1') in 0.478841 seconds
+  Import took 0.483574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Assets/Our Prefabs/ceiling.prefab
+  artifactKey: Guid(13c0f2d4dd764bd4aaac5d2f76ea9741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Our Prefabs/ceiling.prefab using Guid(13c0f2d4dd764bd4aaac5d2f76ea9741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7622733c589e82d4d202c2bcbc36e234') in 0.134217 seconds
+  Import took 0.139399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Assets/Our Prefabs/big_sink.prefab
+  artifactKey: Guid(05e3b4eb1c3ffd846bf567bd3dc85501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Our Prefabs/big_sink.prefab using Guid(05e3b4eb1c3ffd846bf567bd3dc85501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9126f6d33bc1462958a76435e99eeab') in 0.067983 seconds
+  Import took 0.072300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Assets/Our Prefabs/wood_shelf.prefab
+  artifactKey: Guid(02dc4a3a588eedd429200c0c68b67a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Our Prefabs/wood_shelf.prefab using Guid(02dc4a3a588eedd429200c0c68b67a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755ece0f2dc42792f1644b4d5f81873e') in 0.023241 seconds
+  Import took 0.028117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Assets/Our Prefabs/pen_holder.prefab
+  artifactKey: Guid(476c52dc10ae7174f8454c4ad0434697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Our Prefabs/pen_holder.prefab using Guid(476c52dc10ae7174f8454c4ad0434697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8c8234f31011a4f286613f06378bbc') in 0.047944 seconds
+  Import took 0.053395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Assets/Our Prefabs/chair.prefab
+  artifactKey: Guid(027de1dc50d846244aedf080de419546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Our Prefabs/chair.prefab using Guid(027de1dc50d846244aedf080de419546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5d98b331c364fb0c90648989b9d29d') in 0.182944 seconds
+  Import took 0.187802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Assets/Our Prefabs/lamp.prefab
+  artifactKey: Guid(b48f075a4559b334799c9321cf590c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Our Prefabs/lamp.prefab using Guid(b48f075a4559b334799c9321cf590c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e2697aade3592e18a1474fe8ef9007') in 0.233054 seconds
+  Import took 0.238190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Assets/Our Prefabs/scalpel.prefab
+  artifactKey: Guid(f772229a7ef9d184ca009b6f43fe0861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Our Prefabs/scalpel.prefab using Guid(f772229a7ef9d184ca009b6f43fe0861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38841e11796a9a9442082dd4a8bd7900') in 0.014558 seconds
+  Import took 0.021598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Assets/Our Prefabs/floor.prefab
+  artifactKey: Guid(52d2245dea33b5b4695fc95686ac8371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Our Prefabs/floor.prefab using Guid(52d2245dea33b5b4695fc95686ac8371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24c9533084b4f0e2f5da48100137d3f') in 0.129800 seconds
+  Import took 0.135544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Assets/Our Prefabs/Walls.prefab
+  artifactKey: Guid(1d412fe1ae36681418efaf0d1300ad69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Our Prefabs/Walls.prefab using Guid(1d412fe1ae36681418efaf0d1300ad69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa50e692f94361ceb6ef189859ab85b') in 0.133102 seconds
+  Import took 0.137944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Assets/Our Prefabs/notes.prefab
+  artifactKey: Guid(d520ebd15b511bc4db800a9dd0ff3750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Our Prefabs/notes.prefab using Guid(d520ebd15b511bc4db800a9dd0ff3750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0c6ead401335ecf0e2aebb4d7b0b26') in 0.023763 seconds
+  Import took 0.028207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.557464 seconds.
+  path: Assets/Assets/CobleGames
+  artifactKey: Guid(6fca2961dc495be4f9f4e930eca25341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/CobleGames using Guid(6fca2961dc495be4f9f4e930eca25341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dded779a3dc392224eedd93617a396fd') in 0.007740 seconds
+  Import took 0.013442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.803396 seconds.
+  path: Assets/Assets/CobleGames/Materials
+  artifactKey: Guid(189d82bcf5eabed468c8d9db93c6ec94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/CobleGames/Materials using Guid(189d82bcf5eabed468c8d9db93c6ec94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e40961f4048729e6f0de2e898c55df1') in 0.007232 seconds
+  Import took 0.012537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059014 seconds.
+  path: Assets/Assets/CobleGames/Materials/hospital bed.mat
+  artifactKey: Guid(45223e1f4025fe148a9a0b006eb143dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/CobleGames/Materials/hospital bed.mat using Guid(45223e1f4025fe148a9a0b006eb143dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7d2314a479d2e97694ea9118c97c22') in 0.557468 seconds
+  Import took 0.564181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.672298 seconds.
+  path: Assets/Assets/CobleGames/Materials/hospital bed.mat
+  artifactKey: Guid(45223e1f4025fe148a9a0b006eb143dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/CobleGames/Materials/hospital bed.mat using Guid(45223e1f4025fe148a9a0b006eb143dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5d060f2f324a053039182eca721de9') in 0.481718 seconds
+  Import took 0.489698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Assets/CobleGames/Materials/New Material.mat
+  artifactKey: Guid(d3caa013d26074148a927d26af2f4590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/CobleGames/Materials/New Material.mat using Guid(d3caa013d26074148a927d26af2f4590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1137eeba2da2a22ba297dda308cca3ca') in 0.014114 seconds
+  Import took 0.019185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 202.346579 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/wall/Materials/door_glass.mat
+  artifactKey: Guid(6a7b465e8d2553a408e9ff409d5368b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/wall/Materials/door_glass.mat using Guid(6a7b465e8d2553a408e9ff409d5368b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d82cafcfa614980c358401a83fb810f') in 0.091005 seconds
+  Import took 0.096333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/wall/Materials/wall2_basecolor.tga
+  artifactKey: Guid(1016cc7b69658154195f1c95fd4defe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/wall/Materials/wall2_basecolor.tga using Guid(1016cc7b69658154195f1c95fd4defe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1c3c5202281053aab1f1755c833bf2') in 0.063674 seconds
+  Import took 0.068312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/wall/Materials/door_glass.mat
+  artifactKey: Guid(6a7b465e8d2553a408e9ff409d5368b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/wall/Materials/door_glass.mat using Guid(6a7b465e8d2553a408e9ff409d5368b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d82cafcfa614980c358401a83fb810f') in 0.052038 seconds
+  Import took 0.057876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/wall/Materials/wall_piece_mat02.mat
+  artifactKey: Guid(c036a9c91eb84bc4c93e5dc1e938c49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/wall/Materials/wall_piece_mat02.mat using Guid(c036a9c91eb84bc4c93e5dc1e938c49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c34d578cceace4cb618698ae63b6809') in 0.150967 seconds
+  Import took 0.156439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/wall/Materials/doorframes_metallic.tga
+  artifactKey: Guid(447b0dc3223d8a74ca97fefc35b94b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/wall/Materials/doorframes_metallic.tga using Guid(447b0dc3223d8a74ca97fefc35b94b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420b0785e76e73ab114a7ff089c36ffb') in 0.056522 seconds
+  Import took 0.061562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/wall/Materials/doorframes_mat.mat
+  artifactKey: Guid(4a07eb17452e0be4398aa22d30b4a627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/wall/Materials/doorframes_mat.mat using Guid(4a07eb17452e0be4398aa22d30b4a627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32cf81750859c83c6d1edbc5482233c4') in 0.148820 seconds
+  Import took 0.153999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/wall/Materials/wall2_normal.tga
+  artifactKey: Guid(c3ee295756c9b6540b01d1557c0eb28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/wall/Materials/wall2_normal.tga using Guid(c3ee295756c9b6540b01d1557c0eb28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163ba961b6a07398d7a649e0ec55a05d') in 0.045996 seconds
+  Import took 0.050712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/wall/Materials/wall2_metallic.tga
+  artifactKey: Guid(2b08bd1457f379442a6acb52f5769dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/wall/Materials/wall2_metallic.tga using Guid(2b08bd1457f379442a6acb52f5769dee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a8f62bc570a1e407de6e2df1b78ebe') in 0.058316 seconds
+  Import took 0.063761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/wall/Materials/wall_basecolor.tga
+  artifactKey: Guid(fd121f09d3b1380418ce54791ab6ae28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/wall/Materials/wall_basecolor.tga using Guid(fd121f09d3b1380418ce54791ab6ae28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98141257f1158730dd06d4f495c433c') in 0.045996 seconds
+  Import took 0.050874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/wall/Materials/wall_metallic.tga
+  artifactKey: Guid(cdca89024616e6045abdcb180efcc5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/wall/Materials/wall_metallic.tga using Guid(cdca89024616e6045abdcb180efcc5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9be5d031c30c20a8302794c773857a') in 0.056015 seconds
+  Import took 0.060910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/wall/Materials/wall_normal.tga
+  artifactKey: Guid(85329bdbbc430fc4d892154c0bf28117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/wall/Materials/wall_normal.tga using Guid(85329bdbbc430fc4d892154c0bf28117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec10b5f5e170f7e2ea94ff67980c329') in 0.048655 seconds
+  Import took 0.053192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/wall/Materials/doorframes_basecolor.tga
+  artifactKey: Guid(2507747f842636e4db948bb5224569ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/wall/Materials/doorframes_basecolor.tga using Guid(2507747f842636e4db948bb5224569ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea1c67705342d99ba6ab1c8e052ca63') in 0.055482 seconds
+  Import took 0.060385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/wall/Materials/doorframes_normal.tga
+  artifactKey: Guid(ba7ff999e270f0644858db8cb5283551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/wall/Materials/doorframes_normal.tga using Guid(ba7ff999e270f0644858db8cb5283551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c439925a7e89260bbf48e6423ac77224') in 0.050710 seconds
+  Import took 0.055551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/wall/Materials/doorframes_basecolor.tga
+  artifactKey: Guid(2507747f842636e4db948bb5224569ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/wall/Materials/doorframes_basecolor.tga using Guid(2507747f842636e4db948bb5224569ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea1c67705342d99ba6ab1c8e052ca63') in 0.059279 seconds
+  Import took 0.064044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/wall/Materials/doorframes_normal.tga
+  artifactKey: Guid(ba7ff999e270f0644858db8cb5283551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/wall/Materials/doorframes_normal.tga using Guid(ba7ff999e270f0644858db8cb5283551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c439925a7e89260bbf48e6423ac77224') in 0.045962 seconds
+  Import took 0.051088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.350529 seconds.
+  path: Assets/Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
+  artifactKey: Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg using Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7659e59e40ac704aeb9596b2d9fd5144') in 0.068930 seconds
+  Import took 0.074357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/floor/floor_ceiling_8x8.fbx
+  artifactKey: Guid(3a77418097e7ca7478553756758df054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/floor/floor_ceiling_8x8.fbx using Guid(3a77418097e7ca7478553756758df054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2955c9bbe2463c056cbafdcbe651cf') in 0.016170 seconds
+  Import took 0.020488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/floor/Materials/floor_01_normal.tga
+  artifactKey: Guid(d2631864f3330c34eac17e7851eb3138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/floor/Materials/floor_01_normal.tga using Guid(d2631864f3330c34eac17e7851eb3138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bc66ff760f903d100777b925929258') in 0.046249 seconds
+  Import took 0.051195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/floor/floor_ceiling_4x16.fbx
+  artifactKey: Guid(1fdfe0a1ed45e5a46a7c30664cca38c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/floor/floor_ceiling_4x16.fbx using Guid(1fdfe0a1ed45e5a46a7c30664cca38c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14526f33f5837f28740b7bc9526f361') in 0.017281 seconds
+  Import took 0.021896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/floor/floor_ceiling_8x16.fbx
+  artifactKey: Guid(1972d5d95f318b844beeee272e0d19cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/floor/floor_ceiling_8x16.fbx using Guid(1972d5d95f318b844beeee272e0d19cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3978e8be96abaeeb1b7624fd21e74f') in 0.015604 seconds
+  Import took 0.020110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Assets/Morgue Room PBR/Prefabs/ceiling/floor_ceiling_4x16.prefab
+  artifactKey: Guid(f65556bc90a56424ababdc3e2af29931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Prefabs/ceiling/floor_ceiling_4x16.prefab using Guid(f65556bc90a56424ababdc3e2af29931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe609d44d6bd415fe7daa4bc9e1eab8') in 0.126260 seconds
+  Import took 0.131375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/floor/Materials/floor_01_metallic.tga
+  artifactKey: Guid(11fb7c41eed148b499508e80ff960b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/floor/Materials/floor_01_metallic.tga using Guid(11fb7c41eed148b499508e80ff960b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc60b487ce71fcdb47d1fde1b0f7dbb3') in 0.056387 seconds
+  Import took 0.060783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Assets/Morgue Room PBR/Prefabs/ceiling/floor_ceiling_4x4.prefab
+  artifactKey: Guid(5c9fcce56ce141242b4795f96796d784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Prefabs/ceiling/floor_ceiling_4x4.prefab using Guid(5c9fcce56ce141242b4795f96796d784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e74f327b27630fa06e5dee5c196d3fc') in 0.126852 seconds
+  Import took 0.131620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Assets/Morgue Room PBR/Prefabs/floor/floor_ceiling_8x8.prefab
+  artifactKey: Guid(2bb715d5d7333cd4cb60235ee1d6bfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Prefabs/floor/floor_ceiling_8x8.prefab using Guid(2bb715d5d7333cd4cb60235ee1d6bfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ba004faf98f8cc01a98290ab706bcf') in 0.127914 seconds
+  Import took 0.132679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Assets/Morgue Room PBR/Prefabs/floor/floor_ceiling_4x4.prefab
+  artifactKey: Guid(f8ca8b584672e2c44b786aedd156b7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Prefabs/floor/floor_ceiling_4x4.prefab using Guid(f8ca8b584672e2c44b786aedd156b7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3c2fd1919700b4fd3c7cfc0f57fe71') in 0.126891 seconds
+  Import took 0.131251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Assets/Morgue Room PBR/Prefabs/ceiling/floor_ceiling_8x8.prefab
+  artifactKey: Guid(afb3a810580d951408d34206296996c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Prefabs/ceiling/floor_ceiling_8x8.prefab using Guid(afb3a810580d951408d34206296996c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d96a55988f83ec300771dd74065f86') in 0.123414 seconds
+  Import took 0.128614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/floor/floor_ceiling_4x4.fbx
+  artifactKey: Guid(520074d9834269448bf268f5cb1f9215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/floor/floor_ceiling_4x4.fbx using Guid(520074d9834269448bf268f5cb1f9215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648f9399519d8b3a6c3704fdb3dac843') in 0.009319 seconds
+  Import took 0.014169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
+  artifactKey: Guid(85ac55597b97403c82fc6601a93cf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg using Guid(85ac55597b97403c82fc6601a93cf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716c0aabf3fa4cb5cf605dd71ae4ca1b') in 0.013913 seconds
+  Import took 0.018877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Assets/Morgue Room PBR/Prefabs/ceiling/floor_ceiling_8x16.prefab
+  artifactKey: Guid(24862cb6c23a09a4bafd3f687430b163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Prefabs/ceiling/floor_ceiling_8x16.prefab using Guid(24862cb6c23a09a4bafd3f687430b163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f1416c70c250d2a244aed5dcbdb6aa') in 0.130606 seconds
+  Import took 0.135872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Assets/Morgue Room PBR/Prefabs/floor/floor_ceiling_4x16.prefab
+  artifactKey: Guid(0ce69b79c4dd2a14ba6f4427c8436e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Prefabs/floor/floor_ceiling_4x16.prefab using Guid(0ce69b79c4dd2a14ba6f4427c8436e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3739fb47c78dae261e748e2caa7bd13d') in 0.128790 seconds
+  Import took 0.134723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/floor/Materials/Materials/floor_01_basecolor.mat
+  artifactKey: Guid(682b78c3b471bbf4992e8264a0589bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/floor/Materials/Materials/floor_01_basecolor.mat using Guid(682b78c3b471bbf4992e8264a0589bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa22d97270734c1981a68bf18edcc4d5') in 0.046693 seconds
+  Import took 0.051206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/floor/Materials/floor_01_basecolor.tga
+  artifactKey: Guid(8374b2c20a14d614c826c2370adc2373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/floor/Materials/floor_01_basecolor.tga using Guid(8374b2c20a14d614c826c2370adc2373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb61f6edcf7a01ec38d5b4a6ed5dd24') in 0.044407 seconds
+  Import took 0.048917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.946141 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/floor/Materials/ceiling_01_basecolor.tga
+  artifactKey: Guid(61bb3df45f6e364409f0dbb8850ddc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/floor/Materials/ceiling_01_basecolor.tga using Guid(61bb3df45f6e364409f0dbb8850ddc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b36cb5681aafd4030a57a1e654c6fdc') in 0.046062 seconds
+  Import took 0.051547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/floor/Materials/lambert1.mat
+  artifactKey: Guid(5f4e13ad018640a4c8d8a222073ec51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/floor/Materials/lambert1.mat using Guid(5f4e13ad018640a4c8d8a222073ec51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c04e2f88cdb14ed3dcb4ed272258369') in 0.011221 seconds
+  Import took 0.017517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/floor/Materials/ceiling_01_basecolor.tga
+  artifactKey: Guid(61bb3df45f6e364409f0dbb8850ddc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/floor/Materials/ceiling_01_basecolor.tga using Guid(61bb3df45f6e364409f0dbb8850ddc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b36cb5681aafd4030a57a1e654c6fdc') in 0.040717 seconds
+  Import took 0.045535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/floor/Materials/ceiling_01_metallic.tga
+  artifactKey: Guid(4f23f9c16e7b9094fbe73acb6e9bdfe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/floor/Materials/ceiling_01_metallic.tga using Guid(4f23f9c16e7b9094fbe73acb6e9bdfe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2fe0432b118591e4ea693e5920c07d') in 0.055687 seconds
+  Import took 0.060618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/floor/Materials/ceiling_01_normal.tga
+  artifactKey: Guid(4c8935c1d651c5445ae94c4b723f4cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/floor/Materials/ceiling_01_normal.tga using Guid(4c8935c1d651c5445ae94c4b723f4cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53177b3beebfb1ccad03f8c061044a6') in 0.048668 seconds
+  Import took 0.053395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/floor/Materials/ceiling_01_metallic.tga
+  artifactKey: Guid(4f23f9c16e7b9094fbe73acb6e9bdfe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/floor/Materials/ceiling_01_metallic.tga using Guid(4f23f9c16e7b9094fbe73acb6e9bdfe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2fe0432b118591e4ea693e5920c07d') in 0.052021 seconds
+  Import took 0.056818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Assets/Morgue Room PBR/Models/floor/Materials/ceiling_01_normal.tga
+  artifactKey: Guid(4c8935c1d651c5445ae94c4b723f4cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Morgue Room PBR/Models/floor/Materials/ceiling_01_normal.tga using Guid(4c8935c1d651c5445ae94c4b723f4cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53177b3beebfb1ccad03f8c061044a6') in 0.042178 seconds
+  Import took 0.047676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.925264 seconds.
+  path: Assets/Scenes/spawn world.unity
+  artifactKey: Guid(0f6622e06b79e894a83c57e6c9b2dd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/spawn world.unity using Guid(0f6622e06b79e894a83c57e6c9b2dd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea11166eae13cc838228fc28c08a19ee') in 0.008431 seconds
+  Import took 0.014265 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008286 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.90 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.25 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\alber\OneDrive\Desktop\3\ataraxia 2\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\alber\OneDrive\Desktop\3\ataraxia 2\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/alber/OneDrive/Desktop/3/ataraxia 2/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.513 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.41 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.20 ms.
+Unloading 3168 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.9 MB.
+System memory in use after: 158.5 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3802.
+Total: 22.413300 ms (FindLiveObjects: 1.482000 ms CreateObjectMapping: 0.589500 ms MarkObjects: 14.402700 ms  DeleteObjects: 5.937000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006165 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\alber\OneDrive\Desktop\3\ataraxia 2\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\alber\OneDrive\Desktop\3\ataraxia 2\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/alber/OneDrive/Desktop/3/ataraxia 2/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.841 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+Unloading 3168 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.9 MB.
+System memory in use after: 158.5 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3806.
+Total: 3.681000 ms (FindLiveObjects: 0.376400 ms CreateObjectMapping: 0.245700 ms MarkObjects: 1.888200 ms  DeleteObjects: 1.169400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 972.963128 seconds.
+  path: Assets/Assets/XR
+  artifactKey: Guid(537d5a5db8d5c054899f4f228347921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/XR using Guid(537d5a5db8d5c054899f4f228347921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da93bfe88192e9256a786ab8b8bcda0') in 0.012659 seconds
+  Import took 0.018157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094550 seconds.
+  path: Assets/Assets/XR/XRGeneralSettingsPerBuildTarget.asset
+  artifactKey: Guid(cbb9248f09db5374da122691a498e024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/XR/XRGeneralSettingsPerBuildTarget.asset using Guid(cbb9248f09db5374da122691a498e024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6ecd304d56f2590ed8ed9cbc7cf63e') in 0.023684 seconds
+  Import took 0.029071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.732559 seconds.
+  path: Assets/Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501c0a0ddef3682700f784f39534ad19') in 0.007428 seconds
+  Import took 0.013450 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006040 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\alber\OneDrive\Desktop\3\ataraxia 2\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\alber\OneDrive\Desktop\3\ataraxia 2\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/alber/OneDrive/Desktop/3/ataraxia 2/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.877 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Unloading 3168 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.9 MB.
+System memory in use after: 158.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3810.
+Total: 3.984500 ms (FindLiveObjects: 0.406600 ms CreateObjectMapping: 0.140900 ms MarkObjects: 2.239500 ms  DeleteObjects: 1.196600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011431 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\alber\OneDrive\Desktop\3\ataraxia 2\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\alber\OneDrive\Desktop\3\ataraxia 2\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/alber/OneDrive/Desktop/3/ataraxia 2/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 3168 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.0 MB.
+System memory in use after: 158.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3814.
+Total: 4.610700 ms (FindLiveObjects: 0.324500 ms CreateObjectMapping: 0.212200 ms MarkObjects: 2.813500 ms  DeleteObjects: 1.259700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006313 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\alber\OneDrive\Desktop\3\ataraxia 2\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\alber\OneDrive\Desktop\3\ataraxia 2\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/alber/OneDrive/Desktop/3/ataraxia 2/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.928 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 3168 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.9 MB.
+System memory in use after: 158.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3818.
+Total: 3.707600 ms (FindLiveObjects: 0.357200 ms CreateObjectMapping: 0.160700 ms MarkObjects: 2.048800 ms  DeleteObjects: 1.140300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1235.838249 seconds.
+  path: Assets/Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496377a4864ba8db9a61335103647d76') in 0.015140 seconds
+  Import took 0.021695 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013287 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\alber\OneDrive\Desktop\3\ataraxia 2\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\alber\OneDrive\Desktop\3\ataraxia 2\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/alber/OneDrive/Desktop/3/ataraxia 2/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.239 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
+Unloading 3168 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.9 MB.
+System memory in use after: 158.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3822.
+Total: 6.650100 ms (FindLiveObjects: 0.459600 ms CreateObjectMapping: 0.275900 ms MarkObjects: 4.014000 ms  DeleteObjects: 1.898800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010552 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\alber\OneDrive\Desktop\3\ataraxia 2\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\alber\OneDrive\Desktop\3\ataraxia 2\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/alber/OneDrive/Desktop/3/ataraxia 2/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.215 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 3168 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.0 MB.
+System memory in use after: 158.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3826.
+Total: 4.800500 ms (FindLiveObjects: 0.559800 ms CreateObjectMapping: 0.292800 ms MarkObjects: 2.464300 ms  DeleteObjects: 1.481400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
